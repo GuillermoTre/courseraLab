@@ -21,7 +21,6 @@ import {useAlertContext} from "../context/alertContext";
 const LandingSection = () => {
   const {isLoading, response, submit} = useSubmit();
   const { onOpen } = useAlertContext();
-
     const formik = useFormik({
       initialValues: {
         firstName: '',
